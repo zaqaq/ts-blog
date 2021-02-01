@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('build now') {
       steps {
-        sh '''yarn install
+        sh '''#yarn install
 yarn build
 tar -zcvf blog-package.tar.gz build
 mv blog-package.tar.gz /data/blog'''
