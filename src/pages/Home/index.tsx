@@ -58,7 +58,6 @@ const Home = () => {
       {
         loadingFlag ? <GobalLoading/> : (
           <HomeWrap>
-            789
             <ArticleList articleList={articleList}/>
             <Pager total={totalNum} pageNum={pageNum} handlePageNum={handlePageNum}/>
           </HomeWrap>
